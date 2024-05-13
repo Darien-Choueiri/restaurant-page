@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, sans-serif;
+}
+
+body {
+    background-image: url('./flat-lay-cup-tea-with-mint.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 10fr;
+    justify-items: center;
+    align-items: center;
+}
+
+header {
+    background-color: rgba(197, 142, 76, 0.7);
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+    color: white;
+    justify-self: stretch;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+nav > button {
+    border: none;
+    padding: 4px 8px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav > button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+nav > button:active {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 750px;
+    padding: 20px;
+    font-size: 22px;  
+    text-align: center;
+   background-color: rgba(197, 142, 76, 0.7);
+}
+
+#content > h1 {
+    font-style: italic;
+}
