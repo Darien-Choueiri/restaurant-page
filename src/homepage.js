@@ -14,6 +14,8 @@ export default function homeapage() {
     tea varietals we offer and our expertise in finding the perfect 
     choice for you!`;
 
+    content.style['background-color'] = 'rgba(197, 142, 76, 0.7)';
+    
     content.appendChild(h1);
     content.appendChild(h2);
     content.appendChild(para);
