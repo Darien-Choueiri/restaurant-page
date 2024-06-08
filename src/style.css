@@ -62,7 +62,7 @@ nav > button:active {
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    width: 750px;
+    width: 1200px;
     padding: 20px;
     font-size: 22px;  
     text-align: center;
@@ -70,4 +70,49 @@ nav > button:active {
 
 #content > h1 {
     font-style: italic;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgba(197, 142, 76, 0.7);
+    padding: 40px;
+    gap: 10px;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.menu > div {
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+}
+
+.menu > img {
+    width: 250px;
+    height: auto;
+}
+
+.contactBoard {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.contactPerson{
+    background-color: rgba(197, 142, 76, 0.7);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.contactPerson > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.introduction {
+    background-color: rgba(197, 142, 76, 0.7);
+    padding: 10px;
+    border-radius: 15px;
 }

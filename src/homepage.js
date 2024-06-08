@@ -1,6 +1,9 @@
 export default function homeapage() {
     const content = document.querySelector('#content');
 
+    const introduction = document.createElement('div');
+    introduction.classList.add('introduction');
+
     const h1 = document.createElement('h1');
     const h2 = document.createElement('h2');
     const para = document.createElement('p');
@@ -14,9 +17,10 @@ export default function homeapage() {
     tea varietals we offer and our expertise in finding the perfect 
     choice for you!`;
 
-    content.style['background-color'] = 'rgba(197, 142, 76, 0.7)';
     
-    content.appendChild(h1);
-    content.appendChild(h2);
-    content.appendChild(para);
+    introduction.appendChild(h1);
+    introduction.appendChild(h2);
+    introduction.appendChild(para);
+    
+    content.appendChild(introduction);
 };
